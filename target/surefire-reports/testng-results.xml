@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testRunner.TestRunner" duration-ms="155907" started-at="2021-01-15T00:21:03Z" finished-at="2021-01-15T00:23:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@2d3fcdbd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="155907" started-at="2021-01-15T00:21:03Z" finished-at="2021-01-15T00:23:38Z">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@2d3fcdbd]" name="setUpClass" is-config="true" duration-ms="88" started-at="2021-01-15T00:21:03Z" finished-at="2021-01-15T00:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@2d3fcdbd]" name="runScenario" duration-ms="155735" started-at="2021-01-15T00:21:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-15T00:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate the user registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@2d3fcdbd]" name="tearDownClass" is-config="true" duration-ms="49" started-at="2021-01-15T00:23:38Z" finished-at="2021-01-15T00:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testRunner.TestRunner -->
+</testng-results>
